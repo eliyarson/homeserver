@@ -266,7 +266,7 @@ services:
       - "traefik.enable=true"
       ## HTTP Routers Auth Bypass
       - "traefik.http.routers.radarr-rtr-bypass.entrypoints=https"
-      - "traefik.http.routers.radarr-rtr-bypass.rule=Host(`radarr.$DOMAINNAME`) && (Headers(`X-Api-Key`, `$SRADARR_API_KEY`) || Query(`apikey`, `$RADARR_API_KEY`))"
+      - "traefik.http.routers.radarr-rtr-bypass.rule=Host(`radarr.$DOMAINNAME`) && (Headers(`X-Api-Key`, `$RADARR_API_KEY`) || Query(`apikey`, `$RADARR_API_KEY`))"
       - "traefik.http.routers.radarr-rtr-bypass.priority=100"
       - "traefik.http.routers.radarr-rtr-bypass.tls=true"
       ## HTTP Routers Auth
