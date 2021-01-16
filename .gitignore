@@ -1,4 +1,5 @@
 traefik2/acme
+traefik2/traefik.log
 plexms
 portainer
 postgres
