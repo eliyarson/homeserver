@@ -1,0 +1,12 @@
+traefik2/acme/acme.json
+plexms
+portainer
+postgres
+shared
+jackett
+qbittorrent
+radarr
+sonarr
+deluge
+organizr
+.env
